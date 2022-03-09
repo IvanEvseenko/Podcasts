@@ -113,12 +113,12 @@ class RegistrationViewController: UIViewController {
         }
     }
     
-    //tap for dissmiss keyboard
+    //tap for dismiss keyboard
     @objc func handlerTap(sender: UITapGestureRecognizer) {
         view.endEditing(true)
     }
     
-    //Privacy Infor
+    //Privacy Info
     @objc func showPrivacyInfo(_ sender: UILabel) {
         let vc = UIViewController()
         let text = UITextView()
